@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    
-    // Get all radio buttons
+ 
     const radioButtons = document.querySelectorAll('input[name="radio"]');
     const totalPriceElement = document.querySelector('#total');
 
