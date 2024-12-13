@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #e52c67;
+    --line-color: #ddd;
+    accent-color: var(--primary-color);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #130e01;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.inner-container {
+    margin: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.header .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: var(--line-color);
+}
+
+.header .title h1 {
+    font-size: 24px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.offer {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.offer-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.input-radio {
+    align-self: center;
+}
+
+.inner-unit {
+    display: flex;
+    gap: 8px;
+}
+
+.off {
+    background: var(--primary-color);
+    color: white;
+    padding: 2px;
+    font-size: small;
+}
+
+del{
+    color:#ddd;
+}
+
+.text-left
+{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+select
+{
+    width: 100px;
+    border: none;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.option-container
+{
+    padding: 15px;
+}
+
+.active
+{
+    background: rgba(230, 21, 80, 0.075);
+    border: 3px solid var(--primary-color);
+}
+
+.hide
+{
+    display: none;
+}
+.show
+{
+    display: block;
+}
+.offre-footer
+{
+    padding: 0 5px;
+}
+
+.footer-text
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery
+{
+    color: var(--primary-color);
+    font-size: large;
+}
+button{
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: var(--primary-color);
+    text-align: center;
+    border-radius: 5px;
+}
+button span
+{
+    margin-right: 5px;
+}
+.watermark
+{
+    color: var(--line-color);
+    font-size: small;
+}
